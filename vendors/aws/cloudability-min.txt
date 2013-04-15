@@ -1,0 +1,14 @@
+{
+      "Statement": [
+          {
+              "Effect": "Allow",
+              "Action": [
+		  "aws-portal:ViewBilling",
+                  "ec2:DescribeInstances",
+		  "ec2:DescribeReservedInstances",
+                  "cloudwatch:GetMetricStatistics"
+              ],
+              "Resource": "*"
+          }
+      ]
+}
